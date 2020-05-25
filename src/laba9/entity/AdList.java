@@ -12,7 +12,7 @@ public class AdList extends ListOfIdentifiables<Ad> {
         // Связать автора с объявлением
         ad.setAuthorId(author.getId());
         ad.setAuthor(author);
- 
+
 
         // Выбрать следующий незанятый id для объявления
         ad.setId(getNextId());

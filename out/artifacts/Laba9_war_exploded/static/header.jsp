@@ -22,7 +22,7 @@ margin-left: 80px;">
 </div>
 <%-- Панель отображается если пользователь аутентифицирован --%>
 <c:if test="${sessionScope.authUser!=null}">
-    <div style="background-color: #BA55D3; padding: 5px">
+    <div style="background-color: #D8BFD8; padding: 5px">
         <div style="float: right; margin-right: 5px">
             [ <a href="<c:url value="/doLogout.jsp" />">Выйти</a> ]
         </div>

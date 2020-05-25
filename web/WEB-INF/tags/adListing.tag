@@ -80,6 +80,7 @@
         <c:if test="${editMode==true}">
             <my:editButton ad="${ad}" />
             <my:deleteButton ad="${ad}" />
+            <my:capsButton ad="${ad}" />
         </c:if>
         </td>
         <%-- Вывести автора объявления --%>

@@ -14,7 +14,7 @@
 одно объявление --%>
 <c:if test="${adListing!=null}">
     <table border="0" cellpadding="5" cellspacing="1">
-    <tr bgcolor="#cccccc" align="center">
+    <tr bgcolor="#8FBC8F" align="center">
     <td>
     Тема объявления<br>
     <a href="<c:url
@@ -80,6 +80,7 @@
         <c:if test="${editMode==true}">
             <my:editButton ad="${ad}" />
             <my:deleteButton ad="${ad}" />
+            <my:capsButton ad="${ad}" />
         </c:if>
         </td>
         <%-- Вывести автора объявления --%>
